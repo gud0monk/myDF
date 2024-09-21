@@ -1,0 +1,9 @@
+{
+	"name": "pmvsDF",
+	"location": "southcentralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "caaea3ea-1778-4802-8792-ab9ea2f6e65c",
+		"tenantId": "9cb35fc4-8336-4e88-b06b-8be752657f3a"
+	}
+}
