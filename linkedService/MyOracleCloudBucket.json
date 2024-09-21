@@ -1,0 +1,12 @@
+{
+	"name": "MyOracleCloudBucket",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://objectstorage.us-chicago-1.oraclecloud.com/p/T6EQUJa0zSymeRUjm5NWH5yPCs5NaT4lw0LF-Z0Urqr6YSlUKIpTbi126WnMPIcd/n/axmzsi4ivbfq/b/bucket-20240921-1444/o/",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
