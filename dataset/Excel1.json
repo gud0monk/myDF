@@ -1,0 +1,21 @@
+{
+	"name": "Excel1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "myblobdf",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Exported Table",
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Electricity202305_202408.xlsx",
+				"container": "dftutorial"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": []
+	}
+}
