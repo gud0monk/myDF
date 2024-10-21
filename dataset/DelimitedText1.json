@@ -1,0 +1,48 @@
+{
+	"name": "DelimitedText1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "myblobdf",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "restdata",
+				"container": "dftutorial"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "col1",
+				"type": "String"
+			},
+			{
+				"name": "col2",
+				"type": "String"
+			},
+			{
+				"name": "col3",
+				"type": "String"
+			},
+			{
+				"name": "col4",
+				"type": "String"
+			},
+			{
+				"name": "col5",
+				"type": "String"
+			},
+			{
+				"name": "col6",
+				"type": "String"
+			}
+		]
+	}
+}
